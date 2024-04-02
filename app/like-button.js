@@ -1,7 +1,7 @@
-'use client';
+'use client'
 
-import { useState } from 'react';
-import styled from 'styled-components';
+import { useState } from 'react'
+import styled from 'styled-components'
 
 const StyledButton = styled.button`
   background-color: #007bff;
@@ -9,14 +9,14 @@ const StyledButton = styled.button`
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-`;
+`
 
-export default function LikeButton() {
-    const [likes, setLikes] = useState(0);
+export default function LikeButton () {
+  const [likes, setLikes] = useState(0)
 
-    function handleClick() {
-        setLikes(likes + 1);
-      }
+  function handleClick () {
+    setLikes(likes + 1)
+  }
 
-      return <StyledButton onClick={handleClick}>Like ({likes})</StyledButton>
+  return <StyledButton onClick={handleClick}>Like ({likes})</StyledButton>
 }
