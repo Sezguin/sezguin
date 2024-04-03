@@ -8,13 +8,14 @@
         "GitHub",
         "JavaScript",
         "MegaLinter",
+        "nextjs",
+        "postcss",
         "Sezguin",
+        "stylelintrc",
         "synthwave",
         "tailwindcss",
         "Trufflehog",
-        "TypeScript",
-        "stylelintrc",
-        "postcss"
+        "TypeScript"
     ],
     "flagWords": [
         "teh",
