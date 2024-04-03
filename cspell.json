@@ -1,45 +1,59 @@
 {
-  "version": "0.2",
-  "language": "en",
-  "words": [
-    "Dependabot",
-    "GitHub",
-    "JavaScript",
-    "MegaLinter",
-    "Sezguin",
-    "Trufflehog",
-    "TypeScript"
-  ],
-  "flagWords": ["teh", "adress", "recieve", "acommodate"],
-  "ignoreWords": [
-    "mkdirp",
-    "codecov",
-    "npm",
-    "yarn",
-    "stefanzweifel",
-    "gubbins"
-  ],
-  "ignorePaths": [
-    "node_modules/**",
-    "dist/**",
-    ".git/**",
-    "build/**",
-    "coverage/**",
-    "cspell.json",
-    ".gitignore"
-  ],
-  "ignoreRegExpList": [
-    "/http[s]?:\\/\\/[\\w\\.\\-]+/",
-    "SHA-256: [A-Fa-f0-9]{64}"
-  ],
-  "overrides": [
-    {
-      "filename": "**/*.md",
-      "ignoreWords": ["frontmatter", "markdownlint"]
-    },
-    {
-      "filename": "**/*.ts",
-      "ignoreRegExpList": ["/@\\w+/"]
-    }
-  ]
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "bootstrapper",
+        "daisyui",
+        "Dependabot",
+        "GitHub",
+        "JavaScript",
+        "MegaLinter",
+        "Sezguin",
+        "synthwave",
+        "tailwindcss",
+        "Trufflehog",
+        "TypeScript"
+    ],
+    "flagWords": [
+        "teh",
+        "adress",
+        "recieve",
+        "acommodate"
+    ],
+    "ignoreWords": [
+        "mkdirp",
+        "codecov",
+        "npm",
+        "yarn",
+        "stefanzweifel",
+        "gubbins"
+    ],
+    "ignorePaths": [
+        "node_modules/**",
+        "dist/**",
+        ".git/**",
+        "build/**",
+        "coverage/**",
+        "cspell.json",
+        ".gitignore"
+    ],
+    "ignoreRegExpList": [
+        "/http[s]?:\\/\\/[\\w\\.\\-]+/",
+        "SHA-256: [A-Fa-f0-9]{64}"
+    ],
+    "overrides": [
+        {
+            "filename": "**/*.md",
+            "ignoreWords": [
+                "frontmatter",
+                "markdownlint"
+            ]
+        },
+        {
+            "filename": "**/*.ts",
+            "ignoreRegExpList": [
+                "/@\\w+/"
+            ]
+        }
+    ]
 }
