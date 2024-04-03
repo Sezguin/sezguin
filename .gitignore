@@ -64,6 +64,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 .env.*.local
+.env*.local
 
 # Miscellaneous
 .cache
@@ -76,6 +77,7 @@ yarn-error.log*
 config.gypi
 CVS
 .lock-wscript
+*.pem
 
 # Python
 __pycache__/
@@ -101,6 +103,17 @@ yarn-error.log*
 *.ear
 *.nar
 
+# Next.js
+/.next/
+/out/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
 # Logs and databases
 *.log
 *.sql
@@ -121,3 +134,6 @@ Thumbs.db
 
 # MegaLinter
 megalinter-reports/
+
+# Testing
+/coverage
