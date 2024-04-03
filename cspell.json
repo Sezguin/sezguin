@@ -12,7 +12,9 @@
         "synthwave",
         "tailwindcss",
         "Trufflehog",
-        "TypeScript"
+        "TypeScript",
+        "stylelintrc",
+        "postcss"
     ],
     "flagWords": [
         "teh",
