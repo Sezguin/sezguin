@@ -2,11 +2,18 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "bootstrapper",
+    "daisyui",
     "Dependabot",
     "GitHub",
     "JavaScript",
     "MegaLinter",
+    "nextjs",
+    "postcss",
     "Sezguin",
+    "stylelintrc",
+    "synthwave",
+    "tailwindcss",
     "Trufflehog",
     "TypeScript"
   ],

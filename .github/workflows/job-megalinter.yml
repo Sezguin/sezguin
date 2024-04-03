@@ -37,6 +37,14 @@ jobs:
           token: ${{ secrets.MEGALINTER_PAT || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Setup Node.js
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: npm install
+
       # MegaLinter
       - name: MegaLinter
 

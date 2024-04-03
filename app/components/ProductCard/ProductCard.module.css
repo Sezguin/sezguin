@@ -1,0 +1,31 @@
+/* 
+
+When using CSS Modules, you can import the styles directly into your component file.
+This is done by importing the CSS file and assigning the styles to a variable.
+The styles can then be applied to the component using the variable name.
+
+Additionally, when naming your classes/modules in here, be sure to use CamelCase.
+Using hyphens would mean the name is not a recognized JavaScript property.
+
+For example:
+
+.cardContainerThing {
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+}
+
+And not:
+
+.card-container-thing {
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+}
+
+Please remove this comment block when you're done reading it.
+
+*/
+
+.card {
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+}
